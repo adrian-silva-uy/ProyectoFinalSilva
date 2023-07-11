@@ -1,0 +1,19 @@
+.cardItem {
+    background-color: #c8d19b;
+    border-radius: 10px;
+    width: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .imgProducto {
+    width: 150px;
+    object-fit: contain;
+  }
+  
+  
+  
