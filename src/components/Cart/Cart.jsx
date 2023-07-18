@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import CartItem from "../CartItem/CartItem";
-import Item from "../Item/Item";
+
 
 const Cart = () => {
   const { cart, clearCart, totalPrice, totalQuantity } =
@@ -21,10 +21,13 @@ const Cart = () => {
       {cart.map((Item) => (
         <CartItem key={Item.id} {...Item} />
       ))}
-      <h3>Total: $ {totalPrice} </h3>
-      <h3>Cantidad Total: {totalQuantity} </h3>
+      
+      <h3>Cantidad de artículos: {totalQuantity} </h3>
+      <h3>Importe Total: $ {totalPrice} </h3>
+      
 
       <button onClick={() => clearCart()}> Vaciar Carrito</button>
+      <br /><br />
       <Link to="/checkout"> Finalizar Compra </Link>
     </div>
   );

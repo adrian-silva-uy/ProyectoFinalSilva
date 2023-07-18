@@ -10,7 +10,7 @@ const Item = ({ id, categoria, artículo, marca, precio, descripción, img }) =>
       <strong> Categoría: {categoria} </strong>
       <p>Marca: {marca} </p>
       <p>Precio: $ {precio} </p>
-      <p>{descripción} </p>
+      {/* <p>{descripción} </p> */}
       <p>ID: {id} </p>
       <Link to={`/item/${id}`}> Ver Detalles </Link>
     </div>
