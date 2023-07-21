@@ -1,4 +1,4 @@
-# Tienda Revoltijo
+# Tienda El Revoltijo
 Este es un proyecto de ecommerce básico que permite ver una lista de productos de supermercado así como muebles y motos, y permite realizar compras en línea pero no maneja el pago con medios de pago. Los productos y las órdenes de compra se almacenan en Firebase.
 
 ## Tecnologías utilizadas
