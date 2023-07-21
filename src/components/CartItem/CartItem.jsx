@@ -3,7 +3,7 @@ import { CartContext } from "../../context/CartContext";
 
 // eslint-disable-next-line react/prop-types
 const CartItem = ({ item, quantity }) => {
-  const { removeFromCart, totalPrice } = useContext(CartContext);
+  const { removeFromCart } = useContext(CartContext);
 
   return (
     <div>

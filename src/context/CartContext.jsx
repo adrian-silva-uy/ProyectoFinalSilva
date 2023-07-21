@@ -12,8 +12,6 @@ export const CartContextProvider = ({children}) => {
     const [totalPrice, setTotalPrice] = useState(0);
     const [totalQuantity, setTotalQuantity] = useState(0);
 
-    console.log(cart);
-
     const addToCart = (item, quantity) => {
         const isInCart = cart.find(prod => prod.item.id === item.id);
 

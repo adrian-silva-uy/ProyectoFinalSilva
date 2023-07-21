@@ -1,0 +1,43 @@
+
+  .item-count {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    width: 120px; 
+  }
+  
+  .item-count button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .item-count button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .item-count .minus-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .item-count .plus-button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .item-count input {
+    width: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 16px;
+  }
+  
